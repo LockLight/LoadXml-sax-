@@ -13,6 +13,7 @@
 		CDEB7AD91E7132A9006A660E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEB7AD71E7132A9006A660E /* Main.storyboard */; };
 		CDEB7ADB1E7132A9006A660E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEB7ADA1E7132A9006A660E /* Assets.xcassets */; };
 		CDEB7ADE1E7132A9006A660E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEB7ADC1E7132A9006A660E /* LaunchScreen.storyboard */; };
+		CDEB7AE81E713407006A660E /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEB7AE71E713407006A660E /* Video.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CDEB7ADA1E7132A9006A660E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDEB7ADD1E7132A9006A660E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDEB7ADF1E7132A9006A660E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEB7AE61E713407006A660E /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		CDEB7AE71E713407006A660E /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		CDEB7ACD1E7132A9006A660E /* XML解析(SAX方式) */ = {
 			isa = PBXGroup;
 			children = (
+				CDEB7AE51E713407006A660E /* Model */,
 				CDEB7AD11E7132A9006A660E /* AppDelegate.h */,
 				CDEB7AD21E7132A9006A660E /* AppDelegate.m */,
 				CDEB7AD41E7132A9006A660E /* ViewController.h */,
@@ -77,6 +81,15 @@
 				CDEB7ACF1E7132A9006A660E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDEB7AE51E713407006A660E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDEB7AE61E713407006A660E /* Video.h */,
+				CDEB7AE71E713407006A660E /* Video.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDEB7AD61E7132A9006A660E /* ViewController.m in Sources */,
+				CDEB7AE81E713407006A660E /* Video.m in Sources */,
 				CDEB7AD31E7132A9006A660E /* AppDelegate.m in Sources */,
 				CDEB7AD01E7132A9006A660E /* main.m in Sources */,
 			);
